@@ -1126,7 +1126,7 @@ img {
 
  .faq_arrow-wrapper {
      /* justify-self: flex-end; */
-     width: 16.25px;
+     min-width: 16.25px;
      height: 8.75px;
      display: flex;
  }

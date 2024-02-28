@@ -1,5 +1,6 @@
 var swiperThumbsVertical = new Swiper(".product_Swiper_thumbs", {
   spaceBetween: 16,
+  loop: true,
   breakpoints: {
     320: {
       slidesPerView: 3,
@@ -38,6 +39,7 @@ var swiper = new Swiper(".product_Swiper_main", {
  
  var swiper = new Swiper(".instagram_Swiper", {
     slidesPerView: 4,
+    loop: true,
     spaceBetween: 8,
     navigation: {
         nextEl: ".swiper-button-next",
@@ -47,6 +49,7 @@ var swiper = new Swiper(".product_Swiper_main", {
 
 var swiper = new Swiper(".review_Swiper", {
     slidesPerView: 1,
+    loop: true,
     spaceBetween: 8,
     navigation: {
         nextEl: ".review-swiper-button-next",
@@ -68,7 +71,7 @@ var swiper = new Swiper(".matching_Swiper", {
         spaceBetween: 30
         }
     },
-    
+    loop: true,
     navigation: {
         nextEl: ".matching-swiper-button-next",
         prevEl: ".matching-swiper-button-prev",
